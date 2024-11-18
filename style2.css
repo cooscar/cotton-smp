@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(101, 194, 223);
+
+}
+
+.tt{
+    
+    height: 200px;
+    width: 200px;
+    margin-left: 20%;
+    margin-top: 10px;
+
+}
+
+
+.discord{
+    height: 170px;
+    width: 200px;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+
+.home a{
+    display: flex;
+    height: 70px;
+    top: 0;
+    width: 70px;
+
+}
