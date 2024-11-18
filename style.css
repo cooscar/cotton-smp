@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(101, 194, 223);
+
+}
+
+.container{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.hometext{
+    margin-top: -47px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.skibidi{
+    text-decoration: none;
+
+}
+
+.container:hover{
+    transition: 0.5s;
+}
+
+.sidebar{
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+
+.stuff1{
+    margin-top: 50px;
+}
+
+.stuff2{
+    margin-top: 50px;
+}
+
+.stuff3{
+    margin-top: 50px;
+}
+
+
+.close{
+    margin-left: 50px;
+    font-size: 30px;
+    background-color: white;
+    border-color: white;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    
+}
